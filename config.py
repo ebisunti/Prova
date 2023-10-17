@@ -15,6 +15,7 @@ BUFFER_SIZE = 100000
 BATCH_SIZE = 64
 EPSILON_DECAY = 0.99
 TARGET_FREQ_UPDATE = 10
+BATCH_SIZE = 64
 
 DEVICE ="cuda" if torch.cuda.is_available() else "cpu"
 
